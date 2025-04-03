@@ -1,136 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>DevOps Learning Registration</title>
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Add padding to containers */
-.container {
-  padding: 20px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  max-width: 500px;
-  width: 100%;
-  margin: 20px;
-}
-
-/* Full-width input fields */
-input[type=text], input[type=password], input[type=email] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  background: #f1f1f1;
-  border-radius: 4px;
-}
-
-input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-/* Overwrite default styles of hr */
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* Set a style for the submit button */
-.registerbtn {
-  background-color: #04AA6D; /* Green */
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-  border-radius: 4px;
-  font-size: 16px;
-}
-
-.registerbtn:hover {
-  opacity: 1;
-}
-
-/* Add a blue text color to links */
-a {
-  color: dodgerblue;
-}
-
-/* Set a grey background color and center the text of the "sign in" section */
-.signin {
-  background-color: #f1f1f1;
-  text-align: center;
-  margin-top: 20px;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-h1 {
-    text-align: center;
-    color: #333;
-}
-
-label {
-    font-weight: bold;
-    color: #555;
-}
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italian Recipe</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f0; /* Creamy background */
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1, h2 {
+            color: #8c1b17; /* Deep red color */
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 5px;
+            margin-top: 1.5em;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 0.8em;
+        }
+        .recipe-image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .description {
+            font-style: italic;
+            color: #555;
+            text-align: center;
+            margin-bottom: 2em;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 0.8em;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <h1>Recipe Title Placeholder</h1>
 
-<form action="action_page.php">
-  <div class="container">
-    <h1>New User Registration for DevOps Learning</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
+        <p class="description">
+            A brief description of this delicious Italian dish goes here.
+            It's simple to make and perfect for any occasion!
+        </p>
 
-    <label for="Name"><b>Enter Name</b></label>
-    <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
+        <img src="images/placeholder-dish.jpg" alt="Delicious Italian Dish" class="recipe-image">
 
-    <label for="mobile"><b>Enter Mobile</b></label>
-    <input type="text" placeholder="Enter mobile number" name="mobile" id="mobile" required>
+        <h2>Ingredients</h2>
+        <ul>
+            <li>Ingredient 1 (e.g., 500g Pasta)</li>
+            <li>Ingredient 2 (e.g., 1 can Tomatoes)</li>
+            <li>Ingredient 3 (e.g., 2 cloves Garlic)</li>
+            <li>Ingredient 4 (e.g., Olive Oil)</li>
+            <li>Ingredient 5 (e.g., Basil)</li>
+            <li>... more ingredients</li>
+        </ul>
 
-    <label for="email"><b>Enter Email</b></label>
-    <input type="email" placeholder="Enter Email" name="email" id="email" required>
+        <h2>Instructions</h2>
+        <ol>
+            <li>First step of the recipe instructions.</li>
+            <li>Second step, explaining what to do next.</li>
+            <li>Continue with the preparation steps.</li>
+            <li>Another important step.</li>
+            <li>Final step, perhaps about serving.</li>
+            <li>Enjoy your meal!</li>
+        </ol>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
-
-  <!-- Removed the "Thankyou" heading from here as it seemed out of place -->
-
-</form>
-
+        <footer>
+            Recipe from My Italian Kitchen | Buon Appetito!
+        </footer>
+    </div>
 </body>
 </html>
