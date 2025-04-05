@@ -75,7 +75,7 @@
             It's simple to make and perfect for any occasion!
         </p>
 
-        <img src="images/placeholder-dish.jpg" alt="Delicious Italian Dish" class="recipe-image">
+        <img src="images/placeholder-dish.jpg" alt="Delicious Italian Dinner Dish" class="recipe-image">
 
         <h2>Ingredients</h2>
         <ul>
