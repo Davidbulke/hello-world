@@ -12,3 +12,6 @@
 
   - name: Push Docker image
     command: docker push davidbulke/regapp:latest
+
+  - name: Create Docker container
+    command: docker run -d --name regapp-server -p 8082:8080 davidbulke/regapp:latest
